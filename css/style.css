@@ -1,0 +1,91 @@
+body {
+    background-image: url(../img/background5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #000;
+}
+
+#outer {
+    font-family: 'Open Sans', sans-serif;
+    color: #dadada;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+}
+
+header {
+    padding: 10px;
+    text-align: center;
+    line-height: 35px;
+}
+
+h2 {
+    color: #fff694;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#main-body {
+    background-color: rgba(36, 36, 36, 0.9);
+    color: rgb(242, 242, 242);
+    width: 100%;
+}
+
+#main-body img {
+    width: 150px;
+    float: left;
+    margin: 10px 10px 10px 0px;
+    transition: all 1s;
+}
+
+#main-body img:hover {
+    transform: scale(1.1);
+}
+
+#main-body #left {
+    padding: 10px;
+    width: 100%;
+}
+
+#main-body aside {
+    padding: 10px;
+    margin-right: 20px;
+    width: 40%;
+    min-width: 260px;
+}
+
+#previous-projects {
+    padding: 10px;
+    width: 800px;
+    width: 50%;
+    min-width: 260px;
+}
+
+#previous-projects img {
+    width: 150px;
+    height: 110px;
+}
+
+h1 {
+ color: #ffffff;
+}
+h2 {
+    font-family: 'Oswald', sans-serif;
+}
+
+footer {
+    padding: 10px;
+}
+
+footer a {
+    color: #fff694;
+    text-decoration: none;
+}
+
+#made-with-love{
+    font-size: 12px;
+    text-align: center;
+}
